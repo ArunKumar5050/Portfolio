@@ -58,12 +58,12 @@ export default function AboutMe() {
       >
         <img
           className="rounded-[50%] w-80"
-          src="/src/assets/pp2.png"
+          src="https://res.cloudinary.com/dhjzybacp/image/upload/v1750853776/pp2_deo4az.png"
           alt="profile photo"
         />{" "}
         <img
           className="md:absolute hidden md:block top-0 right-10 w-35 "
-          src="/src/assets/26432.svg"
+          src="https://res.cloudinary.com/dhjzybacp/image/upload/v1750853771/26432_qpwaul.svg"
           alt=""
         />
       </motion.div>
