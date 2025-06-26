@@ -25,6 +25,7 @@ const Contact = () => {
                   whileHover={{ scale: 1.08 }}
                   href="https://www.linkedin.com/in/arun-kumar-54524a287/"
                   className="flex items-center gap-1 bg-[#FFFFFF33] py-1 px-3 text-[#FFFFFF] rounded-md"
+                  target="_blank"
                 >
                   <FaLinkedin fill="#3CCF91"/>LinkedIn
                 </motion.a>
@@ -32,14 +33,16 @@ const Contact = () => {
                 whileHover={{ scale: 1.08 }}
                   href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJvkXVKJNbSlgHQQhkHzltCKhFsGJvBsbqlbBjqjHFHVwnbWhTlfRTnQrPPpfcvjgsSksJV"
                   className="flex items-center gap-1 bg-[#FFFFFF33] py-1 px-3 text-[#FFFFFF] rounded-md"
+                  target="_blank"
                 >
                  <MdEmail fill="#3CCF91"/>
                   Email
                 </motion.a>
                 <motion.a
                 whileHover={{ scale: 1.08 }}
-                  href="https://drive.google.com/file/d/1-cJ00ww7R4c0ya87l_ZE6uTQ9JLLEsOe/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1w-ufu-hK5eEJt7rgP0pPPvwMmncgseuc/view?usp=drive_link"
                   className="flex items-center gap-1 bg-[#FFFFFF33] py-1 px-3 text-[#FFFFFF] rounded-md"
+                  target="_blank"
                 >
                   <FaFile fill="#3CCF91" /> Resume
                 </motion.a>

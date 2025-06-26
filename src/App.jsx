@@ -3,6 +3,7 @@ import Project from './components/Project'
 import Blog from './components/Blog'
 import Contact from './components/Contact'
 import AboutMe from './components/AboutMe'
+import Achievement from './components/Achievement'
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
       <Hero />
       <AboutMe />
       <Project />
-
+      <Achievement />
       <Blog />
       <Contact />
 

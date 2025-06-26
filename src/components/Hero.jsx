@@ -7,7 +7,7 @@ import { FaFile } from "react-icons/fa";
 const Hero = () => {
   return (
     <section className="min-h-[500px] flex flex-col justify-center items-start px-6 md:px-12 max-w-6xl mx-auto relative">
-      <img className="w-35 hidden md:block absolute  top-15 left-4 " src="https://res.cloudinary.com/dhjzybacp/image/upload/v1750853771/26432_qpwaul.svg" alt="imgsdfsdf" />
+      <img className="w-35 hidden md:block absolute  top-15 left-4 " src="https://res.cloudinary.com/dhjzybacp/image/upload/v1750853771/26432_qpwaul.svg" alt="dot image" />
       <motion.h2
         className="text-2xl md:text-2xl relative text-[#3CCF91] font-bold mb-1"
         initial={{ opacity: 0, y: 40 }}

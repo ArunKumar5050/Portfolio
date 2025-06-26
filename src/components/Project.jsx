@@ -50,6 +50,10 @@ const Projects = () => {
             </motion.div>
           ))}
         </div>
+        <div className="w-100% flex justify-center p-10">
+          <a className=" p-3 border-2 rounded-3xl" target="_blank" href="https://github.com/ArunKumar5050">Show more..</a>
+        
+        </div>
       </section>
     </FadeInSection>
   );
