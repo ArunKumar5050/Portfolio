@@ -1,21 +1,11 @@
-import React, { useRef } from 'react'
+// import React, { useRef } from 'react'
 import FadeInSection from "./FadeInSection";
 import { motion } from "framer-motion";
 
-export default function Achievement() {
+const Achievements = () => {
 
-   const scrollRef = useRef(null);
-
-  const scroll = (direction) => {
-    if (scrollRef.current) {
-      const scrollAmount = 350; // Adjust as needed
-      scrollRef.current.scrollBy({
-        left: direction === 'left' ? -scrollAmount : scrollAmount,
-        behavior: 'smooth',
-      });
-    }
-  };
-  const projects = [
+  
+  const achievements = [
     { img: "https://res.cloudinary.com/dhjzybacp/image/upload/v1750859749/Screenshot_2025-06-25_192235_j7rtq1.png",
       title: "codethon 1.O",
       desc: "Proud to have participated in HackHive Hackathon 2025 — a great opportunity to collaborate, innovate, and build impactful tech solutions under time constraints. A valuable learning experience! 💻🚀",
@@ -45,20 +35,20 @@ export default function Achievement() {
 
   return (
     <FadeInSection>
-      <section id="projects" className="py-16 px-6 md:px-12 max-w-6xl mx-auto">
-        <h3 className="text-3xl font-bold mb-8">Projects</h3>
+      <section id="achievements" className="py-16 px-6 md:px-12 max-w-6xl mx-auto scroll-mt-24">
+        <h3 className="text-3xl font-bold mb-8">Achievement</h3>
         <div className="grid md:grid-cols-2 gap-6">
-          {projects.map((project, index) => (
+          {achievements.map((achievement, index) => (
             <motion.div
               whileHover={{ scale: 1.08 }}
               key={index}
               className="bg-[#000000]  rounded-xl flex flex-col gap-1 shadow hover:shadow-xl transition"
             >
-              <img className="rounded-t-xl  w-full h-[300px] " src={project.img} alt="" />
-              <h4 className="text-xl px-3 font-semibold mb-2">{project.title}</h4>
-              <p className="text-gray-400 mb-4 px-3">{project.desc}</p>
+              <img className="rounded-t-xl  w-full h-[300px] " src={achievement.img} alt="" />
+              <h4 className="text-xl px-3 font-semibold mb-2">{achievement.title}</h4>
+              <p className="text-gray-400 mb-4 px-3">{achievement.desc}</p>
               
-              <a href={project.link} className="text-blue-400 px-3 mb-3 hover:underline">
+              <a href={achievement.link} className="text-blue-400 px-3 mb-3 hover:underline">
                 View certificate →
               </a>
             </motion.div>
@@ -68,3 +58,6 @@ export default function Achievement() {
     </FadeInSection>
   )
 }
+
+
+export default Achievements;

@@ -4,14 +4,14 @@ import FadeInSection from "./FadeInSection"
 const Blog = () => {
     const posts = [
       {
-        title: "How I Built My Portfolio",
-        date: "April 2025",
-        link: "#"
+        title: "React Best Practices for Beginners",
+        date: "june 2025",
+        link: "https://reactpractices.hashnode.dev/react-best-practices-for-beginners"
       },
       {
-        title: "Top 5 React Libraries I Love",
-        date: "March 2025",
-        link: "#"
+        title: "Deploying Your React App on Vercel",
+        date: "june 2025",
+        link: "https://reactpractices.hashnode.dev/deploying-your-react-app-on-vercel-beginners-guide"
       },
     ]
   
@@ -21,7 +21,8 @@ const Blog = () => {
         <h3 className="text-3xl font-bold mb-8">Blog</h3>
         <div className="space-y-6">
           {posts.map((post, idx) => (
-            <div key={idx} className="border-b border-gray-800 pb-4">
+            <div key={idx}
+             className="border-b border-gray-800 pb-4">
               <h4 className="text-xl font-semibold">{post.title}</h4>
               <p className="text-sm text-gray-500">{post.date}</p>
               <a href={post.link} className="text-blue-400 hover:underline">Read More →</a>

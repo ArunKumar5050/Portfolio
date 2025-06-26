@@ -3,7 +3,7 @@ import Project from './components/Project'
 import Blog from './components/Blog'
 import Contact from './components/Contact'
 import AboutMe from './components/AboutMe'
-import Achievement from './components/Achievement'
+import Achievements from './components/Achievement'
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
         <h1 className="text-2xl font-bold">Arun</h1>
         <nav className="space-x-4 ">
           <a href="#projects" className="hover:underline">Projects</a>
-          <a href="#blog" className="hover:underline">Blog</a>
+          <a href="#achievements" className="hover:underline">Achievements</a>
           <a href="#contact" className="hover:underline">Contact</a>
         </nav>
       </header>
@@ -23,7 +23,7 @@ function App() {
       <Hero />
       <AboutMe />
       <Project />
-      <Achievement />
+      <Achievements />
       <Blog />
       <Contact />
 
