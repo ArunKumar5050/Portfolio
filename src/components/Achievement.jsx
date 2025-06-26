@@ -15,7 +15,7 @@ const Achievements = () => {
     {img: "https://res.cloudinary.com/dhjzybacp/image/upload/v1750867192/WhatsApp_Image_2025-06-25_at_21.28.55_608ce145_knsaq3.jpg" ,
       title: "Hack-Hive(Hackathon)",
       desc: "Completed the Web Development Using HTML & CSS workshop, where I gained practical knowledge in structuring and styling web pages. A valuable step in building a strong foundation in front-end development. 🌐💻",
-      link: "https://github.com/ArunKumar5050/Airbbnb.git",
+      link: "https://res.cloudinary.com/dhjzybacp/image/upload/v1750867192/WhatsApp_Image_2025-06-25_at_21.28.55_608ce145_knsaq3.jpg",
       
     },
     {img: "https://res.cloudinary.com/dhjzybacp/image/upload/v1750859752/Screenshot_2025-06-25_192502_ytyc7z.png" ,
