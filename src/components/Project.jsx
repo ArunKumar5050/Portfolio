@@ -21,10 +21,10 @@ const Projects = () => {
       link: "https://github.com/ArunKumar5050/FinBot.git",
       stack: "HTML, CSS, JavaScript ,React, Node.js, Express, MongoDB",
     },
-    {img: "https://res.cloudinary.com/dhjzybacp/image/upload/v1750853774/spotify_p0fzso.png" ,
+    {img: "https://res.cloudinary.com/dhjzybacp/image/upload/v1750937760/Screenshot_89_wbg2iz.png" ,
       title: "Spotify Clone",
       desc: "A fully responsive Spotify-inspired music streaming web app built using HTML, CSS, and JavaScript. This clone mimics the core design and functionality of Spotify's web player, providing users with a seamless and interactive music streaming experience..",
-      link: "https://github.com/ArunKumar5050/Airbbnb.git",
+      link: "https://github.com/ArunKumar5050/spotify-clone.git",
       stack: "HTML, CSS, JavaScript",
     },
   ];
